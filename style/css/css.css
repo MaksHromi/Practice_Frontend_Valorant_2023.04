@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Tungsten';
 	src: url('../../fonts/raintungsten-medium.eot');
-	src: url('../fonts/raintungsten-medium.eot?#iefix') format('embedded-opentype'), 
+	src: url('../../fonts/raintungsten-medium.eot?#iefix') format('embedded-opentype'), 
 		url('../../fonts/raintungsten-medium.woff2') format('woff2'), 
 		url('../../fonts/raintungsten-medium.woff') format('woff'), 
 		url('../../fonts/raintungsten-medium.ttf') format('truetype'),

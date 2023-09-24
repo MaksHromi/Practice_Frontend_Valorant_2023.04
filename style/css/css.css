@@ -16,7 +16,16 @@
 		url('../../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
-
+@keyframes fadeInAndScale {
+    0% {
+    opacity: 0;
+    transform: scale(0.7); 
+    }
+    100% {
+    opacity: 1;
+    transform: scale(1);
+    }
+}
 *{
     margin: 0;
     padding: 0;
@@ -120,7 +129,8 @@ body {
 
 .skins {
     display: none;
-  }
+    animation: fadeInAndScale 0.7s ease-in-out; 
+}
 
 .style-text {
     color: #FBFAFA;

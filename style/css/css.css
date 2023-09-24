@@ -1,20 +1,20 @@
 @font-face {
 	font-family: 'Tungsten';
-	src: url('../fonts/raintungsten-medium.eot');
+	src: url('../../fonts/raintungsten-medium.eot');
 	src: url('../fonts/raintungsten-medium.eot?#iefix') format('embedded-opentype'), 
-		url('../fonts/raintungsten-medium.woff2') format('woff2'), 
-		url('../fonts/raintungsten-medium.woff') format('woff'), 
-		url('../fonts/raintungsten-medium.ttf') format('truetype'),
-		url('../fonts/raintungsten-medium.svg#raintungsten-medium') format('svg');
+		url('../../fonts/raintungsten-medium.woff2') format('woff2'), 
+		url('../../fonts/raintungsten-medium.woff') format('woff'), 
+		url('../../fonts/raintungsten-medium.ttf') format('truetype'),
+		url('../../fonts/raintungsten-medium.svg#raintungsten-medium') format('svg');
 }
 @font-face {
 	font-family: 'Gilroy';
-	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('../../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 *{
@@ -23,7 +23,7 @@
 }
     
 body {
-    background: url('../style/img/background.jpg') no-repeat;
+    background: url('../../style/img/background.jpg') no-repeat;
     background-size: cover;
 }
 

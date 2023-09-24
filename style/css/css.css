@@ -129,7 +129,7 @@ body {
 
 .skins {
     display: none;
-    animation: fadeInAndScale 0.7s ease-in-out; 
+    animation: fadeInAndScale 1.2s ease-in-out; 
 }
 
 .style-text {
